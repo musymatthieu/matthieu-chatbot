@@ -1,0 +1,25 @@
+Projet : SAR - Simulation de gestion financière d'une salle de sport
+
+Importance : 1
+
+Tags : Gestion financière, Simulation économique, Analyse financière, Gestion d'entreprise, Prise de décision, Comptabilité, Analyse d'impact, Projet académique, Travail en équipe
+
+Contexte :
+Projet académique réalisé en groupe de quatre dans le cadre du cours SAR. L'objectif était d'apprendre les principes de gestion financière d'une entreprise à travers une simulation de gestion d'une salle de sport.
+
+Objectif :
+Prendre des décisions de gestion (investissements, publicité, choix des équipements) et analyser leur impact sur la fréquentation de la salle ainsi que sur les résultats financiers de l'entreprise.
+
+Technologies :
+Simulation de gestion, analyse financière
+
+Travail réalisé :
+- Analyse des coûts et des investissements liés aux équipements de la salle de sport
+- Choix de stratégies de publicité pour attirer de nouveaux clients
+- Suivi de l'évolution de la clientèle en fonction des décisions prises
+- Réalisation de bilans financiers pour évaluer la rentabilité de la salle
+- Ajustement des décisions afin d'améliorer les performances économiques
+
+Résultat :
+La simulation a permis d'expérimenter concrètement la gestion financière d'une entreprise et de comprendre l'impact des décisions d'investissement et de marketing sur la rentabilité.
+

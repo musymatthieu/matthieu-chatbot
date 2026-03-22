@@ -1,0 +1,24 @@
+Projet : PyRat – Agent autonome pour jeu de labyrinthe
+
+Importance : 2
+
+Tags : Python, Algorithmique, Agent autonome, Recherche de chemin
+
+Contexte :
+Projet d'introduction à la programmation en binôme basé sur le jeu PyRat. Dans ce jeu, un rat et un python s'affrontent dans un labyrinthe symétrique et doivent collecter un maximum de morceaux de fromage. Le joueur qui en récupère le plus remporte la partie.
+
+Objectif :
+Concevoir un agent autonome capable de jouer au jeu sans intervention humaine et d'optimiser la collecte de fromage face à un adversaire.
+
+Technologies :
+Python
+
+Travail réalisé :
+- Conception et développement d'un agent capable de jouer automatiquement
+- Implémentation de stratégies de navigation dans le labyrinthe
+- Mise en place d'une logique de décision pour optimiser la collecte de fromage
+- Tests et amélioration des stratégies face à différents adversaires
+
+Résultat :
+L'agent développé est capable de jouer de manière autonome et d'adopter des stratégies efficaces pour maximiser la collecte de ressources dans le labyrinthe.
+

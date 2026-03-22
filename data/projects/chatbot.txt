@@ -1,0 +1,26 @@
+Projet : Chatbot recruteur basé sur un système RAG (Retrieval-Augmented Generation)
+
+Importance : 5
+
+Tags : LLM, RAG, Chatbot, Natural Language Processing, Vector Database, Embeddings, AI Application
+
+Contexte :
+Projet personnel visant à développer un chatbot capable de répondre automatiquement aux questions de recruteurs à partir des informations présentes dans mon CV, mes projets et mes compétences.
+
+Objectif :
+Concevoir un assistant conversationnel capable de répondre de manière pertinente à des questions sur mon profil en utilisant un système de Retrieval-Augmented Generation afin d’exploiter une base de connaissances personnalisée. 
+
+Technologies :
+IA, Python, ChromaDB, Sentence Transformers, Ollama, embeddings, vector database, LLM
+
+Travail réalisé :
+
+- Structuration d’une base de connaissances contenant mon CV, mes compétences et mes projets
+- Génération d’embeddings avec Sentence Transformers
+- Indexation des documents dans une base vectorielle avec ChromaDB
+- Implémentation d’un système de recherche pour récupérer les documents les plus pertinents
+- Intégration d’un modèle de langage via Ollama pour générer les réponses
+- Développement d’un chatbot capable de répondre aux questions sur mon profil et mes projets
+
+Résultat :
+Le système permet de poser des questions en langage naturel sur mon parcours, mes compétences et mes projets. Le chatbot récupère les informations pertinentes dans la base vectorielle et génère des réponses contextualisées grâce à un modèle de langage.

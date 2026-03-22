@@ -1,0 +1,25 @@
+Projet : FPA - Navigation autonome d'une plateforme roulante avec détection d'obstacles
+
+Importance : 3
+
+Tags : Tags : Robotique, Systèmes embarqués, Navigation autonome, Détection d'obstacles, Capteur à ultrasons, Intégration capteurs, Algorithmes de contrôle, Programmation embarquée, Robotique mobile, Prototype matériel, Projet académique, Travail en équipe
+
+Contexte :
+Projet académique réalisé en groupe de trois dans le cadre d'un enseignement en systèmes embarqués et robotique. L'objectif était de concevoir et programmer une plateforme mobile capable de se déplacer de manière autonome.
+
+Objectif :
+Faire parcourir à une plateforme roulante une distance d'un mètre tout en étant capable de détecter et d'éviter un obstacle placé sur sa trajectoire.
+
+Technologies :
+Programmation embarquée, capteur à ultrasons, algorithmes de contrôle
+
+Travail réalisé :
+- Assemblage et mise en place de la plateforme roulante et des capteurs
+- Intégration d'un capteur à ultrasons pour la détection d'obstacles
+- Développement d'un algorithme de navigation permettant à la plateforme d'avancer sur une distance définie
+- Implémentation d'une logique d'évitement d'obstacle basée sur les mesures du capteur
+- Tests et ajustement du comportement de la plateforme
+
+Résultat :
+La plateforme est capable de se déplacer de manière autonome sur la distance souhaitée tout en détectant et contournant un obstacle placé sur sa trajectoire.
+

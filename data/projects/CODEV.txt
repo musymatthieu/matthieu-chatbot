@@ -1,0 +1,24 @@
+Projet : CODEV - Développement d'une application d'aide à la prise de notes pour l'évaluation orale
+
+Importance : 3
+
+Tags : Développement logiciel, Java, Application, Analyse du besoin, Conception logicielle, Spécifications fonctionnelles, Interface utilisateur, Outil académique, Gestion des notes, Projet académique, Travail en équipe
+
+Contexte :
+Projet académique réalisé en groupe de trois dans le cadre d'un projet de développement logiciel. L'objectif était de concevoir une application destinée aux enseignants-chercheurs afin de faciliter la prise de notes lors des évaluations orales d'étudiants.
+
+Objectif :
+Concevoir et développer un outil permettant de structurer et simplifier la prise de notes pendant les passages à l'oral, afin d'améliorer le suivi et l'évaluation des étudiants.
+
+Technologies :
+Java
+
+Travail réalisé :
+- Analyse des besoins en échangeant avec des enseignants-chercheurs
+- Formalisation des besoins fonctionnels de l'application
+- Conception de la structure de l'application
+- Développement de l'application en Java
+- Tests et retours d'enseignants-chercheurs du fonctionnement de l'outil
+
+Résultat :
+L'application développée permet aux enseignants de structurer et centraliser leurs notes lors des évaluations orales, facilitant ainsi le suivi des présentations et l'organisation des observations.

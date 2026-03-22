@@ -1,0 +1,25 @@
+Matthieu Musy's technical skills include:
+
+Programming Languages:
+Python, SQL, C/C++ (basic), VHDL
+
+Artificial Intelligence & Machine Learning:
+Machine Learning, Deep Learning, Neural Networks, Computer Vision
+
+Computer Vision & Video Analysis:
+Object Detection, Image Processing, Video Analysis
+
+Frameworks & Libraries:
+PyTorch, YOLO models, OpenCV, Scikit-learn
+
+Data Processing:
+NumPy, Pandas, Data Preprocessing, Data Analysis
+
+Model Development:
+Model Training, Model Evaluation, Algorithm Development
+
+Tools & Workflow:
+Git, Linux
+
+Hardware & Embedded Systems:
+FPGA, Vivado

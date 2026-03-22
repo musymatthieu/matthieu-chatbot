@@ -1,0 +1,40 @@
+Matthieu Musy – Profil et Formation
+
+PROFIL
+Matthieu Musy est ingénieur en informatique spécialisé en intelligence artificielle, avec une expertise en computer vision et en analyse vidéo temps réel.
+
+Il possède environ deux années d’expérience en recherche appliquée autour du deep learning pour l’analyse d’environnements dynamiques, incluant la détection d’objets, la reconnaissance d’actions et le suivi de trajectoires.
+
+Il a développé des pipelines complets de traitement de données, allant de la modélisation des modèles à leur évaluation expérimentale (mAP, F1-score) et leur optimisation sous contraintes de performance.
+
+Son profil combine des compétences en intelligence artificielle et en systèmes embarqués, avec une appétence pour les systèmes temps réel et les applications à forte complexité technique.
+
+FORMATION
+
+Diplôme d’ingénieur – Informatique
+IMT Atlantique, Brest
+2020 – 2025
+Spécialisation : Systèmes embarqués
+
+Contenu :
+
+* Conception logique en VHDL
+* Implémentation sur FPGA (Vivado)
+* Développement embarqué (Arduino)
+* Intégration capteurs et actionneurs
+* Architecture et validation de systèmes électroniques
+
+Master of Science in Engineering – Informatique
+Keio University, Tokyo, Japon
+2023 – 2025
+
+Contenu :
+
+* Computer Vision
+* Deep Learning
+* Modélisation algorithmique
+* Analyse expérimentale de modèles
+
+Classe Préparatoire aux Grandes Écoles (PCSI/PC*)
+Lycée Marcelin Berthelot, Saint-Maur-des-Fossés
+2018 – 2020

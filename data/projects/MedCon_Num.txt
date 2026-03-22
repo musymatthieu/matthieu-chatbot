@@ -1,0 +1,26 @@
+Projet : MedCon - Conception et implémentation d’un circuit de traitement du signal sur FPGA
+
+Importance : 4
+
+Tags : FPGA, VHDL, Traitement du signal, Électronique numérique, Vivado, Simulation matérielle, Systèmes embarqués, Projet académique, Travail en binôme
+
+Contexte :
+Projet académique réalisé en binôme dans le cadre d’un cours sur les dispositifs médicaux connectés et l’électronique numérique. Le projet consistait à concevoir et implémenter un circuit de traitement du signal sur FPGA en utilisant un langage de description matérielle.
+
+Objectif :
+Développer et tester une architecture de traitement du signal capable de filtrer des données (notamment des signaux physiologiques comme l’ECG) en implémentant un circuit numérique sur FPGA.
+
+Technologies :
+VHDL, FPGA Xilinx, Vivado, traitement du signal numérique, simulation matérielle
+
+Travail réalisé :
+
+- Conception de l’architecture du circuit numérique sous forme de modules hiérarchiques
+- Implémentation des modules de contrôle et de traitement en langage VHDL
+- Mise en place d’un automate à états finis pour gérer le fonctionnement du circuit
+- Simulation fonctionnelle des modules pour vérifier le comportement du système
+- Synthèse et implantation du circuit sur FPGA
+- Tests du circuit sur carte FPGA pour valider le fonctionnement du traitement du signal
+
+Résultat :
+Le projet a permis de développer et tester un circuit numérique de traitement du signal implémenté sur FPGA. Les simulations et les tests matériels ont validé le bon fonctionnement de l’architecture et du filtrage des signaux.

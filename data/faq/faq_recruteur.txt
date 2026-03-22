@@ -1,0 +1,52 @@
+FAQ – Questions fréquentes de recruteurs
+
+Q : Peux-tu te présenter ?
+R : Je suis ingénieur en informatique spécialisé en intelligence artificielle, avec un intérêt particulier pour la computer vision et l’analyse de vidéos. J’ai travaillé sur plusieurs projets techniques impliquant du deep learning, du traitement du signal et des systèmes embarqués.
+
+Q : Dans quels domaines souhaites-tu travailler ?
+R : Je suis particulièrement intéressé par les domaines liés à l’intelligence artificielle, notamment la computer vision, le machine learning appliqué et l’analyse de données.
+
+Q : Quel est ton projet le plus important ?
+R : Mon projet principal est un projet de recherche portant sur l’analyse automatique de matchs de volleyball à partir de vidéos en utilisant des modèles de computer vision basés sur YOLOv8.
+
+Q : As-tu déjà travaillé avec du deep learning ?
+R : Oui, notamment dans mon projet de recherche sur l’analyse vidéo de volleyball où j’ai entraîné et évalué des modèles de détection d’objets pour reconnaître les actions des joueurs.
+
+Q : Quelles technologies utilises-tu le plus ?
+R : J’utilise principalement Python ainsi que des bibliothèques liées au machine learning et à la computer vision comme PyTorch, OpenCV et les modèles YOLO.
+
+Q : As-tu déjà travaillé avec des modèles de langage ou des LLM ?
+R : Oui, j’ai développé un chatbot basé sur un système RAG (Retrieval-Augmented Generation) utilisant des embeddings, une base vectorielle et un modèle de langage afin de répondre automatiquement à des questions sur mon profil et mes projets.
+
+Q : Préfères-tu travailler seul ou en équipe ?
+R : J’ai eu l’occasion de travailler dans les deux configurations au cours de mes projets. Certains ont été réalisés individuellement, notamment mon projet de recherche, tandis que d’autres ont été menés en groupe ou en binôme. Ces expériences m’ont permis de développer à la fois mon autonomie et mes compétences en collaboration. J’ai néanmoins une préférence pour le travail en équipe, qui permet souvent d’échanger des idées et de résoudre les problèmes plus efficacement.
+
+Q : Sur quels types de problèmes aimes-tu travailler ?
+R : J’apprécie particulièrement les problèmes techniques complexes impliquant l’analyse de données ou d’images et la conception de systèmes capables d’extraire automatiquement des informations utiles.
+
+Q : Qu’est-ce qui te motive dans un projet technique ?
+R : Ce qui me motive est de concevoir des solutions concrètes à partir de données, en combinant modélisation, programmation et expérimentation.
+
+Q : Quel type de poste recherches-tu ?
+R : Je recherche un poste dans le domaine de l’intelligence artificielle ou de la data science, idéalement impliquant du machine learning, de la computer vision ou de l’analyse de données.
+
+Q : Peux-tu me parler de tes stages ?
+R : J’ai réalisé deux stages qui m’ont permis de découvrir des environnements de travail différents. Chez Partoo, j’ai travaillé au plus près du CTO et du CPO sur des problématiques de gestion de produit, de coordination entre équipes techniques et de structuration de roadmap. Chez Radisson Hotel Group à Bruxelles, j’ai participé au développement de produits digitaux en analysant les besoins utilisateurs, en contribuant à la priorisation des fonctionnalités et en travaillant avec des équipes internationales dans un contexte agile.
+
+Q : As-tu déjà travaillé avec des équipes produit ?
+R : Oui, lors de mes stages j’ai eu l’occasion de travailler étroitement avec des équipes produit, design et développement. J’ai notamment participé à l’analyse des besoins utilisateurs, à la priorisation des fonctionnalités et à la coordination entre différentes parties prenantes dans un environnement agile.
+
+Q : Comment abordes-tu un projet technique ?
+R : J’essaie généralement de commencer par bien comprendre le problème et les données disponibles. Ensuite, je mets en place une première solution ou un prototype afin de tester rapidement les idées. Enfin, j’analyse les résultats obtenus pour améliorer progressivement le système et optimiser les performances.
+
+Q : Quelles sont tes principales forces ?
+R : Je pense que mes principales forces sont ma capacité à analyser des problèmes techniques complexes, ma curiosité pour apprendre de nouvelles technologies et ma capacité à travailler avec des profils différents, que ce soit des développeurs, des designers ou des équipes produit.
+
+Q : Qu’aimerais-tu apprendre dans ton prochain poste ?
+R : J’aimerais continuer à développer mes compétences en intelligence artificielle et en computer vision, tout en travaillant sur des projets concrets impliquant des données réelles. J’aimerais également approfondir les aspects liés à la mise en production des modèles et à leur intégration dans des systèmes applicatifs. J'aimerai également développer davantage mes connaissances techniques dans des domaines qui pour le moment sont limités comme la cybersécurité ou les télécommunications afin que dans le futur je sois capable de travailler en équipe sur ce genre de sujet sans être laissé au dépourvu
+
+Q : Pourquoi t’es-tu orienté vers l’intelligence artificielle ?
+R : Je me suis intéressé à l’intelligence artificielle car elle permet de transformer des données en informations exploitables et de concevoir des systèmes capables d’automatiser certaines tâches complexes. Ce qui m’intéresse particulièrement est la possibilité d’appliquer ces méthodes à des problèmes concrets, notamment dans l’analyse d’images, de vidéos ou de données.
+
+Q : Peux-tu me parler de ton projet de chatbot ?
+R : J’ai développé un chatbot basé sur un système RAG (Retrieval-Augmented Generation) capable de répondre automatiquement à des questions sur mon profil, mes projets et mes expériences. Le système utilise des embeddings, une base de données vectorielle et un modèle de langage pour retrouver les informations pertinentes et générer des réponses cohérentes. L’objectif était de créer un assistant capable d’interagir avec un recruteur et de présenter mon parcours de manière interactive.

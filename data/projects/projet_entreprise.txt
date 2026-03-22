@@ -1,0 +1,28 @@
+Projet : Projet entreprise - Conception d’un afficheur tête haute (HUD) holographique pour l’automobile
+
+Importance : 3
+
+Tags : Optique, Holographie, HUD, Arduino, Électronique embarquée, Prototypage, CAO, Optique diffractive, Projet industriel, Travail en équipe
+
+Contexte :
+Projet académique réalisé en groupe de quatre étudiants en partenariat avec un équipementier automobile. L’objectif était de concevoir un prototype d’afficheur tête haute (HUD) capable de projeter des informations virtuelles (navigation, vitesse, alertes) dans le champ de vision du conducteur à l’aide de techniques d’optique diffractive.
+
+Objectif :
+Concevoir et réaliser un prototype compact d’afficheur tête haute capable de projeter plusieurs symboles virtuels sur le pare-brise d’un véhicule, avec un large champ de vision et une électronique de pilotage adaptée.
+
+Technologies :
+Arduino, optique diffractive (EOD), LEDs, SolidWorks, GeoGebra, VirtualLab Fusion, prototypage mécanique, électronique embarquée
+
+Travail réalisé :
+
+- Étude du principe de fonctionnement des afficheurs tête haute et des éléments optiques diffractifs
+- Calcul de la position et des angles des modules optiques pour projeter les images sur le pare-brise
+- Conception des images holographiques projetées (symboles de navigation et d’alerte)
+- Développement du pilotage électronique des LEDs à l’aide d’un microcontrôleur Arduino
+- Conception mécanique du support des modules optiques et électroniques
+- Réalisation et assemblage d’un prototype fonctionnel du dispositif
+- Tests et validation du système dans un environnement de simulation de conduite
+
+Résultat :
+Le projet a abouti à la réalisation d’un prototype de HUD capable de projeter des symboles virtuels dans le champ de vision du conducteur. Le système combine optique diffractive, électronique de pilotage et support mécanique afin de démontrer la faisabilité d’un dispositif compact destiné à l’industrie automobile.
+

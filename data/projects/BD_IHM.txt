@@ -1,0 +1,25 @@
+Projet : BD IHM - Conception et implémentation d'une base de données pour une application de communication
+
+Importance : 3
+
+Tags : Base de données, SQL, Modélisation de données, Schéma relationnel, Conception de base de données, Data architecture, Requêtes SQL, Génération de données, Backend, Projet académique, Travail en équipe
+
+Contexte :
+Projet académique réalisé en binôme dans le cadre d'un enseignement en bases de données et interfaces homme-machine (BD/IHM). L'objectif était de concevoir l'architecture de la base de données d'une application de communication similaire à Discord.
+
+Objectif :
+Concevoir et implémenter une base de données permettant de gérer les différents éléments d'une plateforme de communication : utilisateurs, serveurs, salons de discussion (texte et vocal), ainsi que leurs relations.
+
+Technologies :
+SQL
+
+Travail réalisé :
+- Conception du modèle de données et des relations entre les entités (utilisateurs, serveurs, salons, messages)
+- Élaboration du schéma relationnel de la base de données
+- Implémentation de la base de données en SQL
+- Génération et insertion de données artificielles pour simuler l'activité de la plateforme
+- Réalisation de requêtes pour vérifier le bon fonctionnement et la cohérence du système
+
+Résultat :
+La base de données développée permet de représenter les principales fonctionnalités d'une plateforme de communication et de démontrer son fonctionnement à l'aide de jeux de données simulés.
+

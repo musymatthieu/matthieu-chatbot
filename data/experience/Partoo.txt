@@ -1,0 +1,31 @@
+Stage : Assistant CTO / CPO
+
+Entreprise : Partoo
+
+Durée : Juin 2022 – Décembre 2022
+
+Importance : 4
+
+Tags : Product Management, Product Owner, Gestion de projet, Coordination produit-tech, Analyse de données, JIRA, Start-up
+
+Contexte :
+Stage réalisé au sein de Partoo, une start-up française spécialisée dans les solutions permettant aux entreprises d’améliorer leur visibilité en ligne et la gestion de leurs points de vente.
+
+Objectif :
+Assister le CTO et le CPO dans la coordination entre les équipes produit, design et développement, et participer à la structuration de certains processus produit et techniques.
+
+Outils :
+JIRA, analyse de données, gestion de projet produit
+
+Travail réalisé :
+- Analyse et formalisation des besoins fonctionnels en collaboration avec les équipes techniques
+- Contribution à la planification et au suivi des développements logiciels
+- Coordination entre les équipes produit, design et développement
+- Participation à la structuration de certains processus techniques
+- Contribution à la construction de la roadmap technique
+- Analyse d’indicateurs d’usage pour identifier des axes d’amélioration
+- Synthèse et analyse de données internes pour appuyer les décisions du CTO et du CPO
+- Administration de JIRA et participation au projet interne "Zero Bug Month"
+
+Résultat :
+Ce stage m’a permis de découvrir le rôle de Product Owner et le fonctionnement d’une équipe produit dans un environnement start-up, tout en développant des compétences en coordination produit-technique et en analyse de données.

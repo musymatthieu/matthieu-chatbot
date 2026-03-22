@@ -1,0 +1,31 @@
+Projet : Extraction automatique de moments clés en volleyball à partir de vidéos
+
+Importance : 6
+
+Tags : Computer Vision, Deep Learning, YOLOv8, Analyse vidéo, Sports Analytics, Détection d’objets, Reconnaissance d’actions, Tracking, Filtre de Kalman, Machine Learning, Projet de recherche
+
+Contexte :
+Projet de recherche réalisé seul et en autonomie dans le cadre d’un travail académique visant à analyser automatiquement des matchs de volleyball à partir de vidéos. L’objectif était de détecter les joueurs, reconnaître leurs actions et analyser la trajectoire de la balle afin d’identifier des événements de jeu et de pouvoir les extraire automatiquement en temps réel.
+
+Objectif :
+Concevoir un système capable d’identifier et d’extraire automatiquement les moments clés d’un match (actions, contacts balle-joueur, phases de jeu) en s’appuyant sur des techniques de vision par ordinateur et de deep learning.
+
+Technologies :
+IA, Python, YOLOv8, Computer Vision, Deep Learning, Filtre de Kalman, PyGame, Analyse vidéo
+
+Travail réalisé :
+
+- Entraînement d’un modèle YOLOv8 pour détecter les joueurs et reconnaître leurs actions (set, spike, dig, fall, etc.)
+- Entraînement sur un dataset composé de 55 vidéos et ~4 800 frames annotées, incluant la localisation de 12 joueurs et de la balle
+- Intégration d’un modèle dédié à la détection de la balle pour améliorer la précision des interactions de jeu
+- Mise en place d’un suivi robuste de la balle via un filtre de Kalman afin de lisser les trajectoires et réduire le bruit
+- Détection des changements de trajectoire pour identifier automatiquement les contacts balle-joueurs
+- Développement d’un outil de visualisation interactif (PyGame) pour afficher les détections, trajectoires et événements en temps réel
+- Conception de règles heuristiques pour inférer des actions globales et structurer les phases de jeu
+- Développement d’une pipeline complète allant de l’inférence vidéo à l’extraction automatique des moments clés
+- La pipeline fonctionnait en temps réel sur des vidéos de 30 FPS.
+
+
+Résultat :
+Le système permet d’analyser automatiquement des séquences de volleyball en détectant les joueurs, leurs actions et la trajectoire de la balle.
+Il identifie des événements clés du jeu (contacts, actions majeures) et constitue une première base pour l’extraction automatique de highlights et l’analyse avancée de performance.

@@ -1,0 +1,33 @@
+Stage : DXCoE Product Development Trainee
+
+Entreprise : Radisson Hotel Group
+
+Durée : Janvier 2023 – Juillet 2023
+
+Importance : 4
+
+Tags : Product Management, UX Research, Analyse utilisateur, Agile, Roadmap produit, Benchmark, Coordination internationale
+
+Contexte :
+Stage réalisé au sein du Digital Experience Center of Excellence (DXCoE) du groupe Radisson Hotel Group, groupe hôtelier international. L’équipe était chargée d’améliorer les produits digitaux et l’expérience utilisateur sur les plateformes du groupe.
+
+Objectif :
+Participer au développement et à l’amélioration de produits digitaux en analysant les besoins utilisateurs, en contribuant à la priorisation des fonctionnalités et en coordonnant différentes équipes produit, design et développement.
+
+Outils :
+Excel, analyse de données, méthodes Agile
+
+Travail réalisé :
+- Analyse des besoins utilisateurs à partir de commentaires clients et triage des retours utilisateurs
+- Analyse et structuration de feedback utilisateurs afin d’identifier des axes d’amélioration produit
+- Recherche juridique sur les problématiques liées aux cookies et à leur gestion
+- Réalisation de benchmarks de solutions existantes pour identifier des bonnes pratiques
+- Proposition d’améliorations de design et de fonctionnement pour certains produits digitaux
+- Priorisation régulière des tickets produits dans un processus Agile
+- Participation à la définition et à la planification de la roadmap produit
+- Suivi d’indicateurs d’usage afin d’orienter les décisions produit
+- Coordination entre équipes produit, design et développement
+- Participation au redesign complet de la page de réservation de salles de réunion (benchmark, propositions de design et workflow)
+
+Résultat :
+Ce stage m’a permis de développer des compétences en analyse des besoins utilisateurs, gestion de produit digital et coordination d’équipes dans un environnement international.

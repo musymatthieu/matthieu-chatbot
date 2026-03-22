@@ -1,0 +1,25 @@
+Projet : Dimensionnement d’un système photovoltaïque autonome
+
+Importance : 2
+
+Tags : Énergie solaire, Photovoltaïque, Dimensionnement énergétique, Analyse énergétique, Énergies renouvelables, Calcul d’énergie, Optimisation système, Projet académique, Travail en équipe
+
+Contexte :
+Projet académique réalisé en binôme dans le cadre d’un bureau d’études en énergie. L’objectif était de dimensionner une installation photovoltaïque capable d’alimenter de manière autonome un gîte loué toute l’année.
+
+Objectif :
+Concevoir un système photovoltaïque permettant de couvrir les besoins énergétiques du gîte tout en garantissant une autonomie d’au moins cinq jours en cas de faible ensoleillement.
+
+Technologies :
+Photovoltaïque, analyse énergétique, calcul de dimensionnement
+
+Travail réalisé :
+- Analyse des besoins énergétiques des équipements (éclairage, ordinateur, télévision, réfrigérateur)
+- Calcul de la consommation énergétique quotidienne du système
+- Étude des données d’ensoleillement pour la ville attribuée
+- Détermination de l’inclinaison optimale des panneaux solaires
+- Dimensionnement des panneaux photovoltaïques et du système de stockage par batteries
+- Vérification de l’autonomie énergétique du système en conditions défavorables
+
+Résultat :
+Le projet a permis de dimensionner une installation photovoltaïque capable de répondre aux besoins énergétiques du gîte tout en assurant une autonomie de plusieurs jours grâce au stockage par batteries.
