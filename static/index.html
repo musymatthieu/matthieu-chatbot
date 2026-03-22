@@ -475,8 +475,8 @@
       <div class="profile-card">
         <h3>Expériences</h3>
         <ul>
-          <li>Partoo — CTO/CPO Assistant</li>
-          <li>Radisson Hotel Group — DXCoE Development Trainee</li>
+          <li>Partoo — Stage développeur IA</li>
+          <li>Radisson Hotel Group — Stage</li>
         </ul>
       </div>
 
@@ -501,10 +501,8 @@
       <div class="profile-card">
         <h3>Formation</h3>
         <ul>
-          <li>Diplome d'ingénieur spécialisé (IMT Atlantique)</li>
-          <li>Master of Sciences in Engineering (Keio University)</li>
-          <li>Spécialisation en Systèmes embarqués, Computer Vision et Intelligence Artificielle</li>
-
+          <li>Master Ingénierie Informatique</li>
+          <li>Spécialisation Intelligence Artificielle</li>
         </ul>
       </div>
 
@@ -562,6 +560,12 @@
 
 <script>
   const sessionId = Math.random().toString(36).slice(2);
+  const urlToken = new URLSearchParams(window.location.search).get('token') || '';
+
+  // Bloque l'accès si pas de token
+  if (!urlToken) {
+    document.body.innerHTML = '<div style="display:flex;height:100vh;align-items:center;justify-content:center;font-family:DM Sans,sans-serif;flex-direction:column;gap:12px"><p style="color:#6b6a64;font-size:15px">Lien invalide.</p><p style="color:#6b6a64;font-size:13px">Contactez Matthieu Musy pour obtenir le lien d\'accès.</p></div>';
+  }
 
   function switchView(name, btn) {
     document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
@@ -634,7 +638,7 @@
       const res = await fetch('/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: text, session_id: sessionId })
+        body: JSON.stringify({ message: text, session_id: sessionId, token: urlToken })
       });
       const data = await res.json();
       document.getElementById('typing')?.remove();

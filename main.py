@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
+from fastapi import HTTPException
 from pydantic import BaseModel
 import chromadb
 from sentence_transformers import SentenceTransformer, CrossEncoder
@@ -19,6 +20,17 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN", "recruteur2026")
+
+class ChatRequest(BaseModel):
+    message: str
+    session_id: str = "default"
+    token: str = ""
+
+@app.post("/chat")
+async def chat(request: ChatRequest):
+    if request.token != ACCESS_TOKEN:
+        raise HTTPException(status_code=401, detail="Token invalide")
 
 # Modèles
 embedding_model = SentenceTransformer("BAAI/bge-m3")
