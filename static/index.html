@@ -440,6 +440,28 @@
 </head>
 <body>
 
+  <div id="login-screen" style="display:none; height:100vh; align-items:center; justify-content:center;">
+    <div style="background:white; padding:2rem; border-radius:12px; border:1px solid #e2e0d8; width:320px; text-align:center;">
+    
+      <h2 style="margin-bottom:10px;">Accès recruteur</h2>
+      <p style="color:#6b6a64; font-size:13px; margin-bottom:20px;">
+        Veuillez entrer le code d'accès fourni avec ma candidature
+      </p>
+
+      <input 
+        type="password" 
+        id="tokenInput" 
+        placeholder="Code d'accès"
+        style="width:100%; padding:10px; border:1px solid #e2e0d8; border-radius:8px; margin-bottom:10px;"
+      />
+
+      <button onclick="validateToken()" style="width:100%; padding:10px; background:#2563eb; color:white; border:none; border-radius:8px; cursor:pointer;">
+        Accéder
+      </button>
+
+      <p id="loginError" style="color:red; font-size:12px; margin-top:10px;"></p>
+    </div>
+  </div>
 <header>
   <div class="logo">Matthieu <span>Musy</span></div>
   <nav>
@@ -475,8 +497,8 @@
       <div class="profile-card">
         <h3>Expériences</h3>
         <ul>
-          <li>Partoo — Stage développeur IA</li>
-          <li>Radisson Hotel Group — Stage</li>
+          <li>Partoo — CTO/CPO Assistant</li>
+          <li>Radisson Hotel Group — DXCoE Development Trainee</li>
         </ul>
       </div>
 
@@ -501,8 +523,8 @@
       <div class="profile-card">
         <h3>Formation</h3>
         <ul>
-          <li>Master Ingénierie Informatique</li>
-          <li>Spécialisation Intelligence Artificielle</li>
+          <li>IMT Atlantique - Diplome d'ingénieur</li>
+          <li>Keio University - Master of Science in Engineering</li>
         </ul>
       </div>
 
@@ -560,12 +582,55 @@
 
 <script>
   const sessionId = Math.random().toString(36).slice(2);
-  const urlToken = new URLSearchParams(window.location.search).get('token') || '';
+  let token = ""; // ✅ variable globale accessible partout
 
-  // Bloque l'accès si pas de token
-  if (!urlToken) {
-    document.body.innerHTML = '<div style="display:flex;height:100vh;align-items:center;justify-content:center;font-family:DM Sans,sans-serif;flex-direction:column;gap:12px"><p style="color:#6b6a64;font-size:15px">Lien invalide.</p><p style="color:#6b6a64;font-size:13px">Contactez Matthieu Musy pour obtenir le lien d\'accès.</p></div>';
-  }
+  document.addEventListener("DOMContentLoaded", () => {
+
+    // ✅ pas de "let" → on modifie la variable globale
+    token = localStorage.getItem("token") || "";
+    const urlToken = new URLSearchParams(window.location.search).get('token');
+
+    if (urlToken) {
+      token = urlToken;
+      localStorage.setItem("token", token);
+    }
+
+    if (!token) {
+      document.getElementById("login-screen").style.display = "flex";
+      document.querySelector("main").style.display = "none";
+    }
+
+    window.validateToken = async function () {
+      const input = document.getElementById("tokenInput").value;
+
+      try {
+        const res = await fetch('/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            message: "test",
+            session_id: "auth",
+            token: input  // ✅ on envoie ce que l'utilisateur a tapé
+          })
+        });
+
+        if (res.status === 200) {
+          localStorage.setItem("token", input);
+          token = input; // ✅ met à jour la variable globale
+
+          document.getElementById("login-screen").style.display = "none";
+          document.querySelector("main").style.display = "block";
+        } else {
+          document.getElementById("loginError").innerText = "Code invalide";
+        }
+
+      } catch (e) {
+        document.getElementById("loginError").innerText = "Erreur serveur";
+        console.error(e);
+      }
+    };
+
+  });
 
   function switchView(name, btn) {
     document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
@@ -622,6 +687,7 @@
   }
 
   async function sendMessage() {
+    console.log("Token utilisé :", token); // ← ajoute cette ligne
     const input = document.getElementById('input');
     const text = input.value.trim();
     if (!text) return;
@@ -638,7 +704,7 @@
       const res = await fetch('/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: text, session_id: sessionId, token: urlToken })
+        body: JSON.stringify({ message: text, session_id: sessionId, token: token })
       });
       const data = await res.json();
       document.getElementById('typing')?.remove();

@@ -5,7 +5,7 @@ from sentence_transformers import SentenceTransformer
 from pypdf import PdfReader
 
 # ✅ Modèle cohérent avec ask_matthieu.py
-model = SentenceTransformer('BAAI/bge-m3')
+model = SentenceTransformer("intfloat/multilingual-e5-small")
 
 client = chromadb.PersistentClient(path="./database")
 
