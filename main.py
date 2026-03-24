@@ -1,9 +1,10 @@
+import numpy as np
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 import chromadb
-from sentence_transformers import SentenceTransformer, CrossEncoder
+from sentence_transformers import SentenceTransformer
 from groq import Groq
 import os
 from dotenv import load_dotenv
@@ -23,9 +24,6 @@ ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN", "recruteur2026")
 
 # ✅ Modèle léger multilingue (~120MB)
 embedding_model = SentenceTransformer("intfloat/multilingual-e5-small")
-
-# ✅ Reranker léger multilingue (~120MB)
-reranker = CrossEncoder("cross-encoder/mmarco-mMiniLMv2-L12-H384-v1")
 
 # ChromaDB
 chroma_client = chromadb.PersistentClient(path="./database")
@@ -71,31 +69,33 @@ async def chat(request: ChatRequest):
     question_embedding = embedding_model.encode(search_query)
     results = collection.query(
         query_embeddings=[question_embedding.tolist()],
-        n_results=20
+        n_results=10
     )
 
     candidates = results["documents"][0]
     metadatas_raw = results["metadatas"][0]
 
-    # Re-ranking
-    pairs = [[question, doc] for doc in candidates]
-    scores = reranker.predict(pairs)
+    
+    def cosine_similarity(a, b):
+        return float(np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b)))
+
+    # Dans la route /chat, remplace le tri par :
+    doc_embeddings = embedding_model.encode(candidates)
 
     ranked = sorted(
-        zip(scores, candidates, metadatas_raw),
-        key=lambda x: x[0] + (0.5 * x[2].get("importance", 1)),
-        reverse=True
+    zip(candidates, metadatas_raw, doc_embeddings),
+    key=lambda x: cosine_similarity(question_embedding, x[2]) + 0.3 * x[1].get("importance", 1),
+    reverse=True
     )
 
     top_docs = ranked[:4]
-    docs_sorted = [d[1] for d in top_docs]
-    metas_sorted = [d[2] for d in top_docs]
+    docs_sorted = [d[0] for d in top_docs]
+    metas_sorted = [d[1] for d in top_docs]
 
     context = "\n\n".join(docs_sorted)
 
     history_text = ""
-    for entry in chat_history[-2:]:  # seulement les 2 derniers échanges
-        # Tronque les réponses longues à 300 caractères
+    for entry in chat_history[-2:]:
         answer_short = entry['answer'][:300] + "..." if len(entry['answer']) > 300 else entry['answer']
         history_text += f"Q: {entry['question']}\nR: {answer_short}\n\n"
 
