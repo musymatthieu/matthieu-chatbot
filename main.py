@@ -90,7 +90,6 @@ async def chat(request: ChatRequest):
 
     top_docs = ranked[:4]
     docs_sorted = [d[0] for d in top_docs]
-    metas_sorted = [d[1] for d in top_docs]
 
     context = "\n\n".join(docs_sorted)
 
